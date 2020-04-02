@@ -1,0 +1,47 @@
+.show {
+  position: relative;
+	display: flex;
+	justify-content: center;
+	/* width: 20em;
+	margin: auto; */
+}
+.slide {
+  width: 20em;
+  height: 10em;
+	background-color: tomato;
+	padding: 1em;
+  border: 1px solid black;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  opacity: 0.5;
+}
+.current {
+  opacity: 1;
+}
+
+.controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.btn {
+	width: 2em;
+	height: 2em;
+	border-radius: 1em;
+	background-color: lightgrey;
+	border: 2px solid grey;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 2;
+	position: absolute;
+	top: 4em;
+}
+#prev {
+	left: 1em;
+}
+#next {
+	right: 1em;
+}
+
